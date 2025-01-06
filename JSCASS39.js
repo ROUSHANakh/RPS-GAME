@@ -1,4 +1,4 @@
-let user = prompt("Enter Anyone : ROCK , PAPER , SCISSOR")
+let user = prompt("Enter Anyone(upper case only): ROCK , PAPER , SCISSOR")
     let dusra = Math.floor(Math.random()*3) ;
     let CPU = ["ROCK","PAPER","SCISSOR"][dusra]
     const match= (dusra,user)=>{
